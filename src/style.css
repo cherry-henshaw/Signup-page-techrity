@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+ 
+  
+}
+
+  h2{
+    margin-bottom: 10px;
+  }
+
+  p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    
+  }
+
+  a{
+    font-size: 14px;
+    padding-left: 3px;
+  }
+
+  button{
+    padding: 8px 30px;
+    color: #fff;
+    border: none;
+    font-size: 13px;
+  }
+
+  .hero{
+    position: relative;
+  }
+
+  .hero .container{
+  margin: auto;
+  position: absolute;
+  top: 50px;
+  right: 30%;
+
+} 
+
+.container form .input-field{
+  width: 250px;
+  padding: 8px;
+  font-size: 10px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.container form .btn-wrapper .btn-1{
+  background-color: red;
+}
+
+.container form .btn-wrapper .btn-2{
+  background-color: green;
+}
+
+#text{
+  padding-bottom: 50px;
+  font-size: 15px;
+  color: red;
+}
+
+
+
+@media screen and (max-width:500px){
+  .hero .container{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    left: 0px;
+  
+  
+  } 
+
+  p {
+    margin-bottom: 20px;
+    font-size: 15px;
+    
+  }
+}
+
+  
